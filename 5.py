@@ -28,6 +28,6 @@ for _ in range(len(negafibonachi_list) + len(fibonachi_list) - 1):
     if _ < len(negafibonachi_list):
         result_list.append(negafibonachi_list[(-_)-1])
     if len(negafibonachi_list) <= _:
-        result_list.append(negafibonachi_list[(_ - (len(fibonachi_list)-1))]) 
+        result_list.append(fibonachi_list[(_ - (len(fibonachi_list)-1))]) 
 
 print(f'Последовательность негафибоначчи и фибоначчи: {result_list}')
